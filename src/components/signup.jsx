@@ -27,7 +27,7 @@ const Signup = () => {
       <div className="sm:mx-auto sm:w-full sm:max-w-sm">
         <h2 className="text-center text-2xl/9 font-bold tracking-tight text-white-900">
           Signup to
-          <span className="ml-2 text-[#46a440]">emchat</span>
+          <span className="ml-2 text-[#72c66c]">emconnect</span>
         </h2>
       </div>
 
@@ -42,7 +42,7 @@ const Signup = () => {
             </label>
             <div className="mt-2">
               <input
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 id="name"
                 name="name"
                 type="text"
@@ -63,7 +63,7 @@ const Signup = () => {
             </label>
             <div className="mt-2">
               <input
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 id="username"
                 name="username"
                 type="text"
@@ -86,7 +86,7 @@ const Signup = () => {
             </label>
             <div className="mt-2">
               <input
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 id="password"
                 name="password"
                 type="password"
@@ -109,7 +109,7 @@ const Signup = () => {
             </label>
             <div className="mt-2">
               <input
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 id="confirmPassword"
                 name="confirmPassword"
                 type="password"
@@ -131,7 +131,7 @@ const Signup = () => {
             <button
               disabled={loading}
               type="submit"
-              className="flex w-full cursor-pointer justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex cursor-pointer w-full justify-center rounded-md bg-[#46a440] hover:bg-[#4fb847] px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               {loading ? (
                 <span className="loading loading-spinner"></span>
@@ -145,7 +145,7 @@ const Signup = () => {
         <p className="mt-5 text-center text-sm/6 text-gray-500">
           Already have an account?{" "}
           <Link
-            className="font-semibold text-indigo-600 hover:text-indigo-500"
+            className="font-semibold text-[#46a440] hover:text-[#4fb847]"
             to={"/Login"}
           >
             Login

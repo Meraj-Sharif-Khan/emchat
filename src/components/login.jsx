@@ -22,7 +22,7 @@ const Login = () => {
         />
         <h2 className="mt-10 text-center text-2xl/9 font-bold tracking-tight text-white-900">
           Login to
-          <span className="ml-2  text-[#46a440] ">emchat</span>
+          <span className="ml-2  text-[#72c66c] ">emconnect</span>
         </h2>
       </div>
 
@@ -42,7 +42,7 @@ const Login = () => {
                 type="text"
                 required
                 autoComplete="username"
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 value={inputs.username}
                 onChange={(e) =>
                   setInputs({ ...inputs, username: e.target.value })
@@ -62,7 +62,7 @@ const Login = () => {
               <div className="text-sm">
                 <a
                   href="#"
-                  className="font-semibold text-indigo-600 hover:text-indigo-500"
+                  className="font-semibold text-[#46a440] hover:text-[#4fb847]"
                 >
                   Forgot password?
                 </a>
@@ -75,7 +75,7 @@ const Login = () => {
                 type="password"
                 required
                 autoComplete="current-password"
-                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-600 sm:text-sm/6"
+                className="block w-full rounded-md bg-white px-3 py-1.5 text-base text-gray-900 outline-1 -outline-offset-1 outline-gray-300 placeholder:text-gray-400 focus:outline-2 focus:-outline-offset-2 focus:outline-[#46a440] sm:text-sm/6"
                 value={inputs.password}
                 onChange={(e) =>
                   setInputs({ ...inputs, password: e.target.value })
@@ -88,7 +88,7 @@ const Login = () => {
             <button
               disabled={loading}
               type="submit"
-              className="flex cursor-pointer w-full justify-center rounded-md bg-indigo-600 px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs hover:bg-indigo-500 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+              className="flex cursor-pointer w-full justify-center rounded-md bg-[#46a440] hover:bg-[#4fb847] px-3 py-1.5 text-sm/6 font-semibold text-white shadow-xs focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
             >
               {loading ? (
                 <span className="loading loading-spinner"></span>
@@ -102,7 +102,7 @@ const Login = () => {
         <p className="mt-10 text-center text-sm/6 text-gray-500">
           Don't have an account?{" "}
           <Link
-            className="font-semibold text-indigo-600 hover:text-indigo-500"
+            className="font-semibold text-[#46a440] hover:text-[#4fb847]"
             to={"/signup"}
           >
             Signup
